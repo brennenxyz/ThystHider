@@ -5,3 +5,4 @@
 - download this repo as a .zip
 - drag the zip folder into the modules folder
 - right click the zip and extract it
+- run /ct load ingame and set the keybind in mc keybinds
