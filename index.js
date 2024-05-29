@@ -12,8 +12,8 @@ key.registerKeyPress(() => {
 
 register("renderEntity", (ent, pos, pt, event) => {
     if(!enabled) return;
-    if(!ent instanceof EntityEndermite) return;
-
-    cancel(event);
-    ent.func_70106_y()
+    if(ent instanceof EntityEndermite) {
+        cancel(event);
+        ent.func_70106_y()
+    }
 })
